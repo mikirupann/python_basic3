@@ -16,7 +16,7 @@ def main():
     she = 0
     for total in range(0, 8):
         you = (weather_information[total]['temperature'])
-        she = she + you
+        she += you
     print(she / 8)
 
     # Q2. 大阪府のすべての駅名をカンマ区切りで出力してください( '梅田,大阪,堺' となればOK)
