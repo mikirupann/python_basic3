@@ -10,6 +10,6 @@ def dice(app):
 
 aka = []
 for rin in range(int(list_kai)):
-    aka.append(str(random.randint(1, int(dice(list_men)))))
+    aka.append(int(random.randint(1, int(dice(list_men)))))
 
 print(aka)
